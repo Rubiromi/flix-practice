@@ -1,0 +1,8 @@
+@import 'colors';
+
+footer#page-footer {
+  color: $primary-color;
+  background-color: $secondary-color;
+  badding: 5px;
+  border-top: 5px solid darken($secondary-color, 25%);
+}

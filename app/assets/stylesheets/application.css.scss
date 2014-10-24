@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+@import 'colors';
+
+ a {
+   text-decoration: none;
+   color: $primary-color;
+ }
+
+ a:visited {
+   color: $primary-color;
+ }
+
+ a:hover, a:focus {
+   color: darken($primary-color, 30%);
+ }
